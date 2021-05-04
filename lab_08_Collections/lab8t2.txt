@@ -1,0 +1,34 @@
+Exercise 2
+
+ The goal of the exercise is to use scala collections in order to perform various tasks.
+
+ We have a list of people:
+
+ val people = List( ("John", "Doe", 23, "male"), ("Joan", "Doe", 23, "female"), ("Steve", "Jenkins", 24, "male"), ("Eva", "Robinson", 25, "female"),
+
+ ("Ben", "Who", 22, "male"), ("Janet", "Reed", 21, "female"), ("Rob", "Jenkins", 26, "male"), ("Ella", "Dawson", 27, "female") )
+
+ The meaning of fields is obvious.
+
+
+ Using collections API (simple for loop solutions are excluded) print the following information.
+
+ - Print list of females and list of males.
+
+ - Obtain names of all people of age above 23.
+
+ - Check if among the people on the list there is someone of name Joe and John.
+
+ - Check if everyone is older than 20.
+
+ - Obtain a list of First names and age.
+
+ - Group all people by age.
+
+ - Split the list of people into younger and older than 23.
+
+ - Find the oldest and youngest.
+
+ - In a single set of transformations check if the number of males and females in the list is identical.
+
+ - Obtain a sorted list of people of age above 23 with dropWhile and sort.
