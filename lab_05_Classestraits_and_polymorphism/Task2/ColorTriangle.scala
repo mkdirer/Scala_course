@@ -1,4 +1,4 @@
-package //scieżka do pliku
+package //File path
 
 class ColorTriangle(center: (Int,Int), rotation: Int, size: Int, var color:(Int,Int,Int))
   extends Triangle(center, rotation, size) with HasColor {

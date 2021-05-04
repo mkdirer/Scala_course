@@ -1,4 +1,5 @@
-package //scieżka do pliku
+package //File path
+
 import scala.math.{min, max}
 
 trait HasColor {

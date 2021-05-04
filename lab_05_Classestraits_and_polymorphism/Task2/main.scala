@@ -1,4 +1,4 @@
-package //scieżka do pliku
+package //File path
 
 object main extends App {
   implicit def Double2Float(x: Double): Float = x.toFloat

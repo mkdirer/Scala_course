@@ -1,4 +1,4 @@
-package //scieżka do pliku
+package //File path
 
 class Triangle(center: (Int,Int), val rotation: Int, size: Int) extends Shape(center,size) {
   override def toString: String = f"Triangle of side size $size rotation $rotation at $center"

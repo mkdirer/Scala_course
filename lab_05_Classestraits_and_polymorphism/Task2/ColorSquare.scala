@@ -1,4 +1,4 @@
-package //scieżka do pliku
+package //File path
 
 class ColorSquare(center: (Int,Int), size: Int, var color: (Int,Int,Int))
   extends Square(center,size) with HasColor {
